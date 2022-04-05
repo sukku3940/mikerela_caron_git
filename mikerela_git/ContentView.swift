@@ -13,6 +13,8 @@ struct ContentView: View {
         Text("Hello, pooja")
         
             Image("pooja").resizable().aspectRatio(contentMode:.fit)
+            
+            Image("sukku").resizable().aspectRatio(contentMode:.fit)
             .padding()
         }
     }
